@@ -8,7 +8,24 @@
 </head>
 
 <body>
+
+    <h1>Переписати код нижче з використанням конструкції switch…case</h1>
+    <code>
+        let numOrStr = prompt('input number or string');<br>
+        console.log(numOrStr)<br>
+        <br>
+        if(numOrStr === null) {<br>
+        console.log('ви скасували')<br>
+        } else if( numOrStr.trim() === '' ) {<br>
+        console.log('Empty String');<br>
+        } else if ( isNaN( +numOrStr ) ) {<br>
+        console.log(' number is Ba_NaN')<br>
+        } else {<br>
+        console.log('OK!')<br>
+        }
+    </code>
     
+
     <script src="./script.js"></script>
 
 </body>
