@@ -1,13 +1,13 @@
 let numOrStr = prompt('input number or string');
 console.log(numOrStr)
 
-switch (numOrStr) {
+switch (numOrStr.trim()) {
     case null:
         console.log('ви скасували');
         break;
     case '':
         console.log('Empty String');
-        break;
+        break;      
     case isNaN (numOrStr) && numOrStr:
         console.log(' number is Ba_NaN');
         break;
